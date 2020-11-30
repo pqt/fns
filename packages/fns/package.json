@@ -1,0 +1,9 @@
+{
+  "name": "@pqt/fns",
+  "version": "1.0.1",
+  "dependencies": {
+    "@pqt/abbreviate": "latest",
+    "@pqt/foreground": "latest",
+    "@pqt/weighted-random": "latest"
+  }
+}

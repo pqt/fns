@@ -31,6 +31,9 @@
     },
     "weighted-random": {
       "tags": ["scope:public", "type:util", "target:all"]
+    },
+    "fns": {
+      "tags": ["scope:public", "type:util", "target:all"]
     }
   },
   "workspaceLayout": {
