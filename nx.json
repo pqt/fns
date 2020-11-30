@@ -28,6 +28,9 @@
     },
     "foreground": {
       "tags": ["scope:public", "type:util", "target:all"]
+    },
+    "weighted-random": {
+      "tags": ["scope:public", "type:util", "target:all"]
     }
   },
   "workspaceLayout": {

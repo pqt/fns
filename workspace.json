@@ -62,6 +62,37 @@
           }
         }
       }
+    },
+    "weighted-random": {
+      "root": "packages/weighted-random",
+      "sourceRoot": "packages/weighted-random/src",
+      "projectType": "library",
+      "schematics": {},
+      "architect": {
+        "lint": {
+          "builder": "@nrwl/linter:eslint",
+          "options": {
+            "lintFilePatterns": ["packages/weighted-random/**/*.ts"]
+          }
+        },
+        "test": {
+          "builder": "@nrwl/jest:jest",
+          "options": {
+            "jestConfig": "packages/weighted-random/jest.config.js",
+            "passWithNoTests": true
+          }
+        },
+        "build": {
+          "builder": "@nrwl/node:package",
+          "options": {
+            "outputPath": "dist/packages/weighted-random",
+            "tsConfig": "packages/weighted-random/tsconfig.lib.json",
+            "packageJson": "packages/weighted-random/package.json",
+            "main": "packages/weighted-random/src/index.ts",
+            "assets": ["packages/weighted-random/*.md"]
+          }
+        }
+      }
     }
   },
   "cli": {
