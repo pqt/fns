@@ -25,6 +25,9 @@
   "projects": {
     "abbreviate": {
       "tags": ["scope:public", "type:util", "target:all"]
+    },
+    "foreground": {
+      "tags": ["scope:public", "type:util", "target:all"]
     }
   },
   "workspaceLayout": {

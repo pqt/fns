@@ -16,7 +16,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@pqt/abbreviate": ["packages/abbreviate/src/index.ts"]
+      "@pqt/abbreviate": ["packages/abbreviate/src/index.ts"],
+      "@pqt/foreground": ["packages/foreground/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
